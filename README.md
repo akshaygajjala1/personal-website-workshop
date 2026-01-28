@@ -5,6 +5,23 @@ This repo uses `npm` for package management. This should be installed along with
 
 The teck stack for the website is React + Next.js using TypeScript and Tailwind CSS. It also uses a linter, ESLint, for style-checking.
 
+### How to Fork and Clone This Repo Locally
+First, navigate to the original GitHub repository in your browser and click the **Fork** button in the top-right corner. Choose your GitHub account as the destination. This creates a copy of the repository under your account.
+
+Next, clone your fork to your local machine:
+
+1. Go to your forked repository on GitHub.
+2. Click the **Code** button and copy the HTTPS URL.
+3. Ensure you are in the correct directory on your machine
+4. Open a terminal and run:
+   ```bash
+   git clone <PASTE_REPO_URL_HERE>
+   ```
+   For example
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   ```
+
 ### How to use this repo
 All scripts can be found in `package.json` under `scripts`. The two you really need to care about are `dev` and `lint`.
 
@@ -24,9 +41,9 @@ Next/Image is great for adding images: https://nextjs.org/docs/app/api-reference
 
 # Getting Started
 1. Fork this repo. Ensure your fork is public.
-2. Work on the website. The main page lives under page.tsx. For more on the structure of a project, visit https://nextjs.org/docs/app/getting-started/project-structure for details.
-3. Answer the questions in the heading below. Keep your answers descriptive and concise. You can use the questions to guide your website development.
-4. Thats it! Have fun! We'll look at forks from the main repo to ensure valid entries into the raffle.
+3. Work on the website. The main page lives under page.tsx. For more on the structure of a project, visit https://nextjs.org/docs/app/getting-started/project-structure for details.
+4. Answer the questions in the heading below. Keep your answers descriptive and concise. You can use the questions to guide your website development.
+5. Thats it! Have fun! We'll look at forks from the main repo to ensure valid entries into the raffle.
 
 # Questions - MUST ANSWER TO BE ENTERED INTO RAFFLE!
 1. Briefly describe everything you've added on from the starter template.
